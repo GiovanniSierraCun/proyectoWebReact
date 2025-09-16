@@ -1,0 +1,12 @@
+
+
+const IndexApp=()=>{
+
+    return(
+
+        
+
+
+    );
+
+}
