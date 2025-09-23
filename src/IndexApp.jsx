@@ -1,3 +1,6 @@
+import NavApp from "./NAV/NavApp";
+import "./Stylees/IndexApp.css"
+
 
 
 const IndexApp=()=>{
@@ -8,11 +11,13 @@ const IndexApp=()=>{
 
         <>
 
-        <nav></nav>
+        <NavApp/>
 
         <body></body>
             <h1 className="saludo">Bienvenido {user}</h1>
         
+
+
         </>
 
 
