@@ -1,12 +1,10 @@
-import ReactDom from "react-dom/client"
-import IndexApp from "./IndexApp";
+import reactDom from"react-dom/client";
+import IndexApp from "./IndexApp.jsx";
 
-
-const root =ReactDom.createRoot(document.getElementById("root"));
+const root=reactDom.createRoot(document.getElementById('root'))
 
 root.render(
 
     <IndexApp/>
-   
-
-);
+    
+)

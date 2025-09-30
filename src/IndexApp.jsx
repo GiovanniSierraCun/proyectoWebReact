@@ -1,11 +1,11 @@
-import NavApp from "./NAV/NavApp";
-import "./Stylees/IndexApp.css"
+import NavApp from "./Nav/NavApp";
+import "./Styles/IndexApp.css"
 
 
 
-const IndexApp=()=>{
+const IndexApp =()=>{  //este es un tipo  de  funcion  flecha
 
-    const user="andres"
+    const user ="Andres"
 
     return(
 
@@ -13,18 +13,15 @@ const IndexApp=()=>{
 
         <NavApp/>
 
-        <body></body>
-            <h1 className="saludo">Bienvenido {user}</h1>
-        
 
+        <h1 className="saludo">Hola  mundo, bienvenido {user}</h1>
+    
 
+        <section></section>
+
+        <div></div>
         </>
-
-
-
-    );
-
-
+    )
 }
 
 export default IndexApp;

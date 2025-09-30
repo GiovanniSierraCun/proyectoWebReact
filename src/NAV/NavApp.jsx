@@ -1,35 +1,53 @@
+import "../Styles/NavApp.css"
 
+const NavApp =()=>{ 
 
-const NavApp=()=>{
-
-  return(
-
+    return(
         <>
-     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-        <ul class="navbar-nav">
-    <li class="nav-item">
-    <a class="nav-link active" href="#"> Active
+          <nav className="navbar">
+  <div className="navbar-left">
+    <a href="/" className="bi bi-house-dash">   
+      Mi Lavanderia
     </a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">
-            Link
-            </a>
-            </li>
-        <li class="nav-item">
-    <a class="nav-link" href="#"> Link
-    </a>
-    </li>
+    
+  </div>
+  <div className="navbar-center">
+    <ul className="nav-links">
+      <li>
+        <a href="/products">
+        <i className="bi bi-house-dash"></i>    
+        Servicios</a>
+        
+      </li>
+      <li>
+        <a href="/about">Nosotros</a>
+      </li>
+      <li>
+        <a href="./Registro/RegistroApp.jsx">Registro</a>
+      </li>
     </ul>
-    </div>
-    </nav>
-       
-        </>
+  </div>
+  <div className="navbar-right">
+    <a href="/cart" className="cart-icon">
+     <i class="bi bi-briefcase"></i>
+<i className="bi bi-person"></i>
+      <span className="cart-count">Carrito</span>
+    </a>
+    <a href="/account" className="user-icon">
+      <i className="bi bi-person"></i>
+    </a>
+  </div>
+</nav>
+        
+        
+        
+        
+        
+        </>        
+
     );
 
 
+};
 
-}
-
-export default NavApp;
+export default NavApp
