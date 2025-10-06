@@ -1,4 +1,10 @@
 import "../Styles/NavApp.css"
+import React from "react";
+import '../Styles/Navbar.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+
+
 
 const NavApp =()=>{ 
 
@@ -23,8 +29,11 @@ const NavApp =()=>{
         <a href="/about">Nosotros</a>
       </li>
       <li>
-        <a href="./Registro/RegistroApp.jsx">Registro</a>
+        <Link to="/registro">Registro</Link>
       </li>
+      <li>
+               <Link to="/login">Iniciar Sesion</Link>
+       </li>
     </ul>
   </div>
   <div className="navbar-right">
