@@ -4,6 +4,7 @@ import React from "react";
 import RegistApp from "./Registro/RegistApp.jsx";
 import LoginApp from "./Login/LoginApp.jsx";
 
+
 import{
     createBrowserRouter,
     RouterProvider,
@@ -17,6 +18,8 @@ const router=createBrowserRouter(
        <Route path="/" element={<IndexApp/>}>,
         <Route path="/registro" element={<RegistApp/>}/>,
         <Route path="/login" element={<LoginApp/>}/>,
+        
+
     </Route>
     )
 );

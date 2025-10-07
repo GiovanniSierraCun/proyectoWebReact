@@ -2,7 +2,10 @@ import "../Styles/NavApp.css"
 import React from "react";
 import '../Styles/Navbar.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
+ 
+
+
 
 
 
@@ -26,7 +29,7 @@ const NavApp =()=>{
         
       </li>
       <li>
-        <a href="/about">Nosotros</a>
+        <Link to="/FormApp">Pagina  de  prueba</Link>
       </li>
       <li>
         <Link to="/registro">Registro</Link>
