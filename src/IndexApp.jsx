@@ -19,10 +19,16 @@ const IndexApp =()=>{  //este es un tipo  de  funcion  flecha
         <h1 className="saludo">Hola  mundo, bienvenido {user}</h1>
         <Outlet />
 
-        <section></section>
+        <h1>
+
+        </h1>
 
         <div></div>
+
+        
         </>
+
+
     )
 }
 
